@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Figtree Light';
+    src: url('../recursos/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Figtree';
+    src: url('../recursos/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+--root{
+    --colorPrincipal: #F9D348;
+}
+
+body{
+    background-color:#F9D348 ;
+    height: 100%;
+    width: 100%;
+
+
+}
+.carta{
+    border: 2px solid;
+    width: 20rem;
+    height: 27rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 17px 17px 0px -4px black;
+    -moz-box-shadow: 17px 17px 0px -4px black;
+    box-shadow: 17px 17px 0px -4px black;
+    
+
+}
+.contenedor_imagen{
+    width: 88%;
+    height: auto;
+    margin: auto;
+    margin-top: 1.2rem;
+}
+.imagen{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.carta_espacio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 720px;
+    padding-right: 2rem;
+}
+
+.learning{
+    width: 88%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: -5px;
+    margin-bottom: -20px;
+}
+.aprender{
+    background-color: #F9D348;
+    font-family:'Figtree';
+    padding: .5rem 1.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.fecha{
+    width: 88%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
+.info_general{
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+}
+.date{
+    font-family: 'Figtree';
+    font-size: small;
+}
+.link{
+    width: 88%;
+    height: auto;
+    margin: auto;
+    margin-top: -22px;
+}
+.enlace{
+    text-decoration: none;
+    color: #F9D348;
+    font-family: 'Figtree';
+    font-size: 1.5rem;
+
+}
+.html{
+    color: #F9D348;
+}
+.descripcion{
+    width: 88%;
+    height: auto;
+    margin: auto;
+    margin-top: -15px;
+}
+.info{
+    font-family: 'Figtree Light';
+    font-size: smaller;
+    color:hsl(0, 0%, 50%);
+}
+
+.contenedor_usuario_imagen{
+    width: 2rem;
+    height: auto;
+}
+.avatar{
+    width: 100%;
+}
+.usuario{
+    width: 88%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    padding-left: 10px;
+    
+}
+.nombre{
+    font-family: 'Figtree';
+font-weight: 700;
+font-size: smaller;
+}
